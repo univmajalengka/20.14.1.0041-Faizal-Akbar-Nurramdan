@@ -1,4 +1,9 @@
-program tugas2;
+{Nama : Faizal Akbar Nurramdan}
+{NPM : 20.14.1.0041}
+{Nama Program : Tugas2_Kalkulator.pas}
+
+
+program tugas2_kalkulator;
 uses crt;
 var i, j : integer;
 
