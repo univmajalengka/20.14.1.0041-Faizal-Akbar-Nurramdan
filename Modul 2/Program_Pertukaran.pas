@@ -1,25 +1,18 @@
 {Nama : Faizal Akbar Nurramdan}
 {NPM : 20.14.1.0041}
-{Nama Program : pertukaran.pas}
+{Nama Program : forpas}
 
-program pertukaran;
+program latihan1;
 uses crt;
 
 var
-A, B, C : Integer;
+n : integer (* angka awal *);
+i : integer (* counter *);
 
 begin
 clrscr;
-write('A = '); readln(A);
-write('B = '); readln(B);
-writeln;
-
-{Proses pertukaran nilai A dan B}
-C := A; {Simpan nilai A di tempat 'Penampungan' sementara}
-A := B; {A diganti dengan nilai B}
-B := C; {Masukan nilai A dari tempat penampungan ke B}
-
-write('A = ', A);
-write('B = ', B);
+write('Masukan Angka : '); readln(n);
+for i := 0 to n do
+write(i, ' ');
 readln;
 end.
